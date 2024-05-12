@@ -48,6 +48,7 @@ void execute_button_task(void)
 {
     if(button_set)
     {
+        button_set = false;
         if(button_state)
         {
             sensirion_print_data();  
